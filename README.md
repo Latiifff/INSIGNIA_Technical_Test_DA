@@ -1,4 +1,8 @@
 # ISIGNIA Technical Test Data Analyst
+**Dalam technical test ini, saya menggunakan BigQuery untuk:**
+- Membuat Laporan Bulanan: Menggunakan CTE untuk menyusun tabel laporan bulanan yang memudahkan pemantauan dan analisis performa secara efisien.
+ - Data Cleaning: Menangani null value di kolom `city` dengan cleaning yang cermat, memastikan informasi pelanggan yang lebih akurat dan dapat diandalkan.
+   
 ## Penjelasan Kode SQL
 
 ### `WITH customer_info AS ( ... )`
@@ -144,3 +148,11 @@ ORDER BY
 ```
 - Query **`ORDER BY`** adalah klausa SQL yang digunakan untuk mengurutkan hasil query berdasarkan satu atau lebih kolom.
 - Klausa ini memungkinkan untuk mengatur data yang ditampilkan dalam urutan tertentu, baik secara menaik (ascending) atau menurun (descending).
+
+## Referensi Postal Code
+
+1. https://www.countryzipcode.com/
+2. https://kor.youbianku.com/
+3. https://www.postalpinzipcodes.com/
+4. http://spain.postcode.info/
+5. https://zip.nowmsg.com/
